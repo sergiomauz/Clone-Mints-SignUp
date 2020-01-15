@@ -1,5 +1,41 @@
 @media (max-width: 767px) {
-    .hide-header {
-      display:none;
-    }
+  .hide-header {
+    display: none;
   }
+}
+
+.intuit-img {
+  width: 114px;
+  height: 45px;
+  background: url(images.png) 0 180px;
+  background-size: 562px 88px;
+  display: inline-block;
+}
+.mint-img {
+  width: 68px;
+  height: 28px;
+  background: url(images.png) -252px 30px;
+  background-size: 562px 88px;
+  display: inline-block;
+}
+
+.quickbooks-img {
+  width: 127px;
+  height: 28px;
+  background: url(images.png) -676px 30px;
+  background-size: 562px 88px;
+  display: inline-block;
+}
+
+.turbotax-img {
+  width: 104px;
+  height: 28px;
+  background: url(images.png) 0 117px;
+  background-size: 562px 88px;
+  display: inline-block;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 0 10px;
+}

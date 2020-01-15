@@ -8,10 +8,10 @@
 
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -20,7 +20,7 @@
       <div class="row hide-header">
         <div class="col-md-8 col-sm-6"></div>
         <div class="col-md-4 col-sm-6 text-right">
-          <div class="row">
+          <div class="row" style="margin-top:10px;">
             <div class="col-sm-8" style="padding: 0px;">
               Already have an Intuit account?<br />
               <a href="#">I forgot my User ID or Password</a>
@@ -68,16 +68,17 @@
           <div class="col-xs-12">
             <form style="margin-left: 10px; margin-right: 10px;">
               <div class="form-group text-left" style="margin-top:15px;">
-                <label for="exampleInputEmail1">Email address</label>
+                <label style="font-weight: 400;">Email address</label>
                 <input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
+                  required
                 />
               </div>
               <div class="form-group text-left" style="margin-top:30px;">
-                <label for="phone">Phone (recommended)</label>
+                <label style="font-weight: 400;">Phone (recommended)</label>
                 <input
                   type="email"
                   class="form-control"
@@ -92,17 +93,16 @@
                 >
               </div>
               <div class="form-group text-left" style="margin-top:30px;">
-                <label for="exampleInputPassword1">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                />
+                <label style="font-weight: 400;">Password</label>
+                <div style="position:relative; width: 320px; height: 50px;">
+                  <input type="password" style="position:absolute;" class="form-control" id="exampleInputPassword1">
+                <i style="position:absolute; top:20%; left:90%;" class="fas fa-lock-open"></i>
+                </div>
               </div>
               <a
                 type="submit"
                 class="btn btn-primary"
-                style="width:100%;margin-top: 15px;;"
+                style="width:100%;margin-top: 15px;"
                 ><i class="fas fa-lock"></i> create account</a
               >
             </form>
@@ -120,7 +120,7 @@
           class="row"
           style="margin: 0 auto; margin-bottom:50px; border-width: 1px; border-style: solid; border-color: lightgrey; color:rgb(141, 144, 150); width: 370px;"
         >
-          <h6 style="font-size:10px;">
+          <h6 style="font-size:10px; margin: 15px 15px;">
             Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
             <a href="#">Terms of Use.</a>
           </h6>
@@ -145,5 +145,6 @@
         subject to change without notice. </span
       ><br />
     </footer>
+    <button class="btn btn-lg" style="position:fixed;bottom: 0; right: 50px; background-color:rgb(107, 108, 114); color:white;">Privacy Settings</button class="btn btn-secondary">
   </body>
 </html>

@@ -21,14 +21,14 @@
         <div class="flex-md-9 flex-sm-6 order1"></div>
         <div class="flex-md-4 flex-sm-6 order2 text-right">
           <div class="row margin-header flex-content">
-            <div class="flex-sm-10 padding-header order1 text-right" style="margin-right: 10px;font-size: 12px; color: rgb(80, 80, 80);">
+            <div class="flex-sm-10 padding-header order1 text-right header-content">
               Already have an Intuit account?<br />
               <a href="#">I forgot my User ID or Password</a>
             </div>
             <div class="flex-sm-4 signup-margin order2">
-              <a class="btn btn-primary" style="background-color: RGB(38,124,181);">
-                <div class="signup-padding" style="display:flex;">
-                  <img src="lock_close.png" style="width:20px; height:20px;" /> Sign In
+              <a class="btn btn-primary lock-button-color">
+                <div class="signup-padding flex-content">
+                  <img src="lock_close.png" class="size-icon-signin" /> Sign In
                 </div>
               </a>
             </div>
@@ -46,8 +46,7 @@
             <div class="intuit-img"></div>
           </div>
           <div
-            class="flex-sm-12"
-            style="margin-top:10px;margin-bottom:10px;"
+            class="flex-sm-12 intuit-position"
           >
             <div class="mint-img"></div>
             <div class="quickbooks-img"></div>
@@ -56,68 +55,64 @@
         </div>
 
         <section
-          class="row"
-          style="height: 580px; width: 370px; background-color:#fff;margin:0 auto; border-width: 1px; border-style: solid; border-color: lightgrey;"
+          class="row intuit"
         >
           <div class="flex-xs-12">
-            <h3 style="margin-top:30px">Create an Intuit account</h3>
-            <p style="margin:0;">
+            <h3 class="create-account-margin">Create an Intuit account</h3>
+            <p class="create-account-message">
               One account for everything intuit, including Mint.
             </p>
             <a href="">Learn more</a>
           </div>
           <div class="flex-xs-12">
-            <form style="margin-left: 10px; margin-right: 10px;">
-              <div class="form-group text-left" style="margin-top:15px;">
-                <label style="font-weight: 400;">Email address</label>
+            <form class="form-margin">
+              <div class="form-group text-left form-div-margin">
+                <label class="font-average">Email address</label>
                 <input
                   type="email"
-                  class="form-control"
-                  style="width: 320px; height: 30px;"
+                  class="form-control input-size"
                   aria-describedby="emailHelp"
                   required
                 />
               </div>
-              <div class="form-group text-left" style="margin-top:30px;">
-                <label style="font-weight: 400;">Phone (recommended)</label>
+              <div class="form-group text-left create-account-margin">
+                <label class="font-average">Phone (recommended)</label>
                 <input
                   type="email"
-                  class="form-control"
+                  class="form-control input-size"
                   aria-describedby="emailHelp"
-                  style="width: 320px; height: 30px;"
                 />
                 <small
                   id="emailHelp"
-                  class="form-text text-muted"
-                  style="font-size:10px;"
+                  class="form-text text-muted font-size-ten"
                   >Standard call, messaging or data rates may apply</small
                 >
               </div>
-              <div class="form-group text-left" style="margin-top:30px;">
-                <label style="font-weight: 400;">Password</label>
-                <div style="position:relative; width: 320px; height: 40px;">
+              <div class="form-group text-left password-margin">
+                <label class="font-average">Password</label>
+                <div class="password-container">
                   <input
                     type="password"
-                    style="position:absolute; width: 320px; height: 30px;"
-                    class="form-control"
+                    class="form-control password-size"
                     id="exampleInputPassword1"
                   />
                   <img
-                    style="position:absolute; top:32%; left:95%; width:20px; height:20px;"
+                    class="submit-icon"
                     src="lock_open.png"
-                  ></imh>
+                  ></img>
                 </div>
               </div>
               <a
                 href=""
-                class="btn btn-primary"
-                style="width: 320px; height: 30px;margin-top: 15px; background-color: RGB(38,124,181);"
-                ><img src="lock_close.png" style="width:25px; height:25px;" /> create account</a
-              >
+                class="btn btn-primary submit-button"
+                >
+                <img src="lock_close.png" class="submit-icon-position" /> 
+               <label class="submit-text-position">create account</label>
+                </a>
+              
             </form>
             <div
-              class="flex-xs-12"
-              style="font-style:italic; font-size:12px; margin-top: 40px; margin-bottom: 25px; color:rgb(141, 144, 150);padding-left:46px;padding-right:46px;"
+              class="flex-xs-12 agreement"
             >
               By clicking create account, you agree with our
               <a href="#">terms</a> and have read and aknowledge our
@@ -126,10 +121,9 @@
           </div>
         </section>
         <div
-          class="row"
-          style="margin: 0 auto; margin-bottom:50px; border-width: 1px; border-style: solid; border-color: lightgrey; color:rgb(141, 144, 150); width: 370px;"
+          class="row captcha"
         >
-          <h6 style="font-size:10px; margin: 15px 15px;">
+          <h6 class="text-captcha">
             Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
             <a href="#">Terms of Use.</a>
           </h6>
@@ -140,13 +134,13 @@
 
     <footer class="text-center">
       <div class="row flex-content">
-        <div class="flex-xs-12" style="text-align:center; font-size:12px;">
+        <div class="flex-xs-12 links-footer">
           <div class="inline-block">Legal</div>
           <div class="inline-block">Privacy</div>
           <div class="inline-block">Security</div>
         </div>
       </div>
-      <span id="ius-sign-up-copy-message" style="font-size:12px;"
+      <span id="ius-sign-up-copy-message font-twelve"
         >© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
         TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
         <br />
@@ -155,8 +149,7 @@
       ><br />
     </footer>
     <button
-      class="btn btn-lg"
-      style="position:fixed;bottom: 0; right: 50px; background-color:rgb(107, 108, 114); color:white;"
+      class="btn btn-lg fixed-button"
     >
       Privacy Settings
     </button>

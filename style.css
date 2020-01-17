@@ -62,6 +62,10 @@
     margin-top: 35px;
 }
 
+
+
+/* Begin of TINB */
+
 .flex-content{
     display:flex;
 }
@@ -343,4 +347,154 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+/* End of TINB */
+
+.header-content{
+    margin-right: 10px;
+    font-size: 12px; 
+    color: rgb(80, 80, 80);
+}
+
+.lock-button-color{
+    background-color: RGB(38,124,181);
+}
+
+.submit-button{
+    width: 320px; 
+    height: 30px;
+    margin-top: 15px; 
+    background-color: RGB(38,124,181); 
+    position: relative;
+}
+
+.submit-text-position{
+    position:absolute;
+    left: 42%; 
+    top:30%;
+}
+
+.submit-icon-position{
+    width:25px; 
+    height:25px; 
+    position:absolute; 
+    left: 35%; 
+    top: 20%;
+}
+
+.agreement{
+    font-style:italic; 
+    font-size:12px; 
+    margin-top: 40px; 
+    margin-bottom: 25px; 
+    color:rgb(141, 144, 150);
+    padding-left:46px;
+    padding-right:46px;
+}
+
+.captcha{
+    margin: 0 auto; 
+    margin-bottom:50px; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: lightgrey; 
+    color:rgb(141, 144, 150); 
+    width: 370px;
+}
+
+.text-captcha{
+    font-size:10px; 
+    margin: 15px 15px;
+}
+
+.links-footer{
+    text-align:center; 
+    font-size:12px;
+}
+
+.font-twelve{
+    font-size:12px;
+}
+
+.fixed-button{
+    position:fixed;
+    bottom: 0; 
+    right: 50px; 
+    background-color:rgb(107, 108, 114); 
+    color:white;
+}
+
+.size-icon-signin{
+    width:20px; 
+    height:20px;
+}
+
+.intuit-position{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.intuit{
+    height: 580px; 
+    width: 370px; 
+    background-color:#fff;
+    margin:0 auto; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: lightgrey;
+}
+
+.create-account-margin{
+    margin-top:30px;
+}
+
+.create-account-message{
+    margin:0;
+}
+
+.form-margin{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.form-div-margin{
+    margin-top:15px;
+}
+
+.font-average{
+    font-weight: 400;
+}
+
+.input-size{
+    width: 320px; 
+    height: 30px;
+}
+
+.password-size{
+    position:absolute; 
+    width: 320px; 
+    height: 30px;
+}
+
+.submit-icon{
+    position:absolute; 
+    top:32%; 
+    left:95%; 
+    width:20px; 
+    height:20px;
+}
+
+.password-container{
+    position:relative; 
+    width: 320px; 
+    height: 40px;
+}
+
+.password-margin{
+    margin-top:30px;
+}
+
+.font-size-ten{
+    font-size:10px;
 }

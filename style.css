@@ -498,3 +498,7 @@
 .font-size-ten{
     font-size:10px;
 }
+
+.body-font {
+    font-family: "Roboto", sans-serif;
+  }

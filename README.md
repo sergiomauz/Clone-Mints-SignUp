@@ -1,4 +1,4 @@
-# First project - Youtube clone
+# Second project - Clone-Mints-SignUp
 
 > It is a small project about clonning a form from mint's sign up using HTML and CSS.
 
